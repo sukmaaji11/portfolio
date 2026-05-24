@@ -16,7 +16,7 @@ export default function About() {
           </h2>
 
           <p className="mt-8 text-sm md:text-base text-neutral-500 leading-8">
-            I'm Sukma Aji, a full-stack developer focused on building modern web
+            I'm Sukma, a full-stack developer focused on building modern web
             applications and digital products.
           </p>
 
