@@ -12,10 +12,34 @@ const manrope = Manrope({
   variable: '--font-manrope',
 });
 
-export const metadata: Metadata = {
-  title: 'BRADEV',
-  description: 'Portfolio Sukma',
+export const metadata = {
+  title: 'Sukma Aji Yudantomo | Fullstack Developer',
+  description:
+    'Portfolio of Sukma Aji Yudantomo — Fullstack Developer building modern web applications, dashboards and digital products.',
+  keywords: [
+    'Fullstack Developer',
+    'Next.js',
+    'Laravel',
+    'React',
+    'Portfolio',
+    'Sukma Aji',
+  ],
+  openGraph: {
+    title: 'Sukma Aji Yudantomo',
+    description: 'Fullstack Developer Portfolio',
+    url: 'https://bra-dev.com',
+    siteName: 'BRADEV',
+    type: 'website',
+    images: [
+      {
+        url: '/og.png',
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
 };
+
 export default function RootLayout({
   children,
 }: {

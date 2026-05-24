@@ -9,30 +9,32 @@ export default function Contact() {
 
   return (
     <>
-      <section className="relative overflow-hidden rounded-[32px] md:rounded-[48px] bg-[#0D0D0D] py-14 md:py-16 text-center text-white mb-5 px-6">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-emerald-300/20 blur-[120px]" />
+      <section className="relative overflow-hidden rounded-[32px] md:rounded-[48px] bg-[#0D0D0D] py-12 md:py-16 px-6 text-center text-white mb-5">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[400px] md:w-[500px] md:h-[500px] bg-emerald-300/20 blur-[120px]" />
 
         <div className="relative z-10">
-          <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white/10 backdrop-blur-md mb-8">
-            <div className="w-2 h-2 rounded-full bg-green-400" />
-            <span className="text-sm">Available for freelance work</span>
+          <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white/10 backdrop-blur-md mb-6">
+            <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+            <span className="text-xs md:text-sm">
+              Available for freelance work
+            </span>
           </div>
 
-          <h2 className="text-[28px] md:text-5xl font-black leading-[1]">
-            Have an idea?
+          <h2 className="text-3xl md:text-5xl font-black leading-[1] tracking-[-0.03em]">
+            Let's build
             <br />
-            Let's build something together.
+            something together
           </h2>
 
-          <p className="text-[14px] mt-6 md:mt-8 max-w-xl mx-auto text-neutral-400 leading-7 md:leading-8">
+          <p className="mt-5 md:mt-8 max-w-[280px] md:max-w-xl mx-auto text-sm md:text-base text-neutral-400 leading-7">
             Need a dashboard, website, internal tools, or custom software? Let's
             discuss it.
           </p>
 
-          <div className="flex flex-col md:flex-row justify-center gap-4 mt-10">
+          <div className="flex flex-col md:flex-row justify-center gap-3 md:gap-4 mt-8 md:mt-10">
             <button
               onClick={() => setContactOpen(true)}
-              className="px-8 py-4 rounded-full bg-white text-black font-medium hover:scale-105 transition-all"
+              className="w-full md:w-auto px-8 py-4 rounded-full bg-white text-black font-medium hover:scale-105 transition-all"
             >
               Contact Me
             </button>
@@ -40,7 +42,7 @@ export default function Contact() {
             <a
               href="https://wa.me/6289633414555"
               target="_blank"
-              className="px-8 py-4 rounded-full border border-white/20 hover:bg-white/10 transition-all"
+              className="w-full md:w-auto px-8 py-4 rounded-full border border-white/20 hover:bg-white/10 transition-all"
             >
               WhatsApp
             </a>
