@@ -31,7 +31,7 @@ export default function FeaturedWork() {
   const [active] = useState(0);
 
   return (
-    <section className="py-20 md:py-32">
+    <section className="py-20 md:py-32" id="projects">
       <div className="mb-10 md:mb-14">
         <p className="text-sm text-neutral-500">Selected Work</p>
 

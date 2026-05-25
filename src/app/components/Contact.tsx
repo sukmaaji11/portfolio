@@ -9,7 +9,10 @@ export default function Contact() {
 
   return (
     <>
-      <section className="relative overflow-hidden rounded-[32px] md:rounded-[48px] bg-[#0D0D0D] py-12 md:py-16 px-6 text-center text-white mb-5">
+      <section
+        id="contact"
+        className="relative overflow-hidden rounded-[32px] md:rounded-[48px] bg-[#0D0D0D] py-12 md:py-16 px-6 text-center text-white mb-5"
+      >
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[400px] md:w-[500px] md:h-[500px] bg-emerald-300/20 blur-[120px]" />
 
         <div className="relative z-10">

@@ -32,16 +32,6 @@ export default function Hero() {
           Creating modern web applications, dashboards and digital products.
         </motion.p>
 
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
-          <button className="px-8 py-4 rounded-full bg-black text-white hover:scale-105 hover:shadow-xl transition-all duration-500">
-            View Projects
-          </button>
-
-          <button className="px-8 py-4 rounded-full border border-neutral-300 hover:bg-white transition-all duration-500">
-            Contact
-          </button>
-        </div>
-
         <div className="mt-8 flex justify-center gap-6 flex-wrap text-sm text-neutral-500">
           <span>20+ Projects</span>
 

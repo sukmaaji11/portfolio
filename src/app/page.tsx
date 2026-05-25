@@ -6,6 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Reveal from './components/Reveal';
+import CurrentProject from './components/CurrentProject';
 
 export default function Home() {
   return (
@@ -31,6 +32,13 @@ export default function Home() {
             <div className="mx-auto max-w-[1280px] px-6 lg:px-10">
               <FeaturedWork />
             </div>
+          </section>
+        </Reveal>
+
+        <Reveal delay={0.3}>
+          <section>
+            <div className="mx-auto max-w-[1280px] px-6 lg:px-10"></div>
+            <CurrentProject />
           </section>
         </Reveal>
 

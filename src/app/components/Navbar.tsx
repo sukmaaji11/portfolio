@@ -65,7 +65,7 @@ export default function Navbar() {
       </nav>
 
       {open && (
-        <div className="fixed inset-0 bg-white/90 dark:bg-zinc-950/90 backdrop-blur-2xl z-40 md:hidden">
+        <div className="fixed inset-0 bg-white/80 backdrop-blur-2xl z-40 md:hidden">
           {' '}
           <div className="flex flex-col items-center justify-center h-full gap-10 text-2xl">
             <a href="#projects" onClick={() => setOpen(false)}>
@@ -81,7 +81,7 @@ export default function Navbar() {
             </a>
 
             <button
-              onClick={() => setOpen(false)}
+              onClick={() => setContactOpen(true)}
               className="px-8 py-4 rounded-full bg-black text-white"
             >
               Contact

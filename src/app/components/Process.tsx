@@ -28,7 +28,7 @@ const process = [
 
 export default function Process() {
   return (
-    <section className="py-16 mb-10">
+    <section className="py-16 mb-10" id="process">
       <div className="mb-16">
         <p className="text-sm text-neutral-500">Process</p>
 

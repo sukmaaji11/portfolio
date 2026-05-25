@@ -5,7 +5,7 @@ import { FileText } from 'lucide-react';
 
 export default function About() {
   return (
-    <section className="py-20 md:py-32">
+    <section className="py-20 md:py-32" id="about">
       <div className="grid lg:grid-cols-2 gap-10 items-center">
         {/* LEFT */}
         <div className="order-2 lg:order-1">
@@ -23,7 +23,7 @@ export default function About() {
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <div className="flex items-center gap-3">
               <a
-                href="https://linkedin.com/in/username"
+                href="https://www.linkedin.com/in/sukma-aji-yudantomo/"
                 target="_blank"
                 className="w-12 h-12 rounded-full border border-neutral-200 bg-white flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300"
               >
@@ -31,7 +31,7 @@ export default function About() {
               </a>
 
               <a
-                href="https://github.com/username"
+                href="https://github.com/sukmaaji11"
                 target="_blank"
                 className="w-12 h-12 rounded-full border border-neutral-200 bg-white flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300"
               >
@@ -39,7 +39,7 @@ export default function About() {
               </a>
 
               <a
-                href="https://instagram.com/username"
+                href="https://instagram.com/sukmaajiy"
                 target="_blank"
                 className="w-12 h-12 rounded-full border border-neutral-200 bg-white flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300"
               >
@@ -49,6 +49,7 @@ export default function About() {
 
             <a
               href="/cv"
+              target="_blank"
               className="px-6 py-3 rounded-full bg-black text-white flex items-center gap-2 hover:scale-[1.03] transition-all duration-300"
             >
               <FileText size={18} />
