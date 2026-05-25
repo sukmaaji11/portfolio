@@ -13,7 +13,7 @@ const manrope = Manrope({
 });
 
 export const metadata = {
-  title: 'Sukma Aji Yudantomo | Fullstack Developer',
+  title: 'Sukma Aji | Fullstack Developer',
   description:
     'Portfolio of Sukma Aji Yudantomo — Fullstack Developer building modern web applications, dashboards and digital products.',
   keywords: [
